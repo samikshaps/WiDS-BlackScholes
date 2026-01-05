@@ -1,20 +1,20 @@
 # WiDS-BlackScholes
 # Practice Repositories
 
-This repository contains practice implementations of option pricing models written while learning the Black–Scholes framework and related numerical methods. Each sub-repository represents a different stage of learning, starting from basic formula implementation to more advanced models.
+Three repositories were covered by practicing those code files which included the relevant concepts. Files that take user input, use streamlit, code for visualisation with mathplotlib or plotly were ignored for this practice.
 
 ---
 
-## repo1 – Black–Scholes Basics (Notebooks)
+## repo1 – Basic Black Scholes code
 
 **Overview:**  
-This repository focuses on understanding the Black–Scholes model through Jupyter notebooks. The goal is to build intuition about how option prices depend on different parameters.
+This set of codes is mainly for understanding and coding the Black–Scholes model with python notebook. The main idea is to get intuition about how option prices depend on different parameters.
 
 **Files:**
 - `BlackScholesImplementation.ipynb`  
-  Implements the Black–Scholes formula for European call and put options and walks through the calculations step by step.
+  Implements the Black–Scholes formula for European call and put options and walks through the calculations step by step by extracting and using all necessary parameters. Greeks for call and put option were also calculated separately. 
 - `examples_usage.ipynb`  
-  Uses the implemented functions with different input values to observe how option prices change.
+ This file is just to see how the previous code can be used. It uses the implemented functions with different input values to see how option prices change for different values of the parameters.
 
 ---
 
