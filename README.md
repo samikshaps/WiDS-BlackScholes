@@ -18,44 +18,44 @@ This set of codes is mainly for understanding and coding the Black–Scholes mod
 
 ---
 
-## repo2 – Black–Scholes, Greeks, and Monte Carlo
+## repo2 – Black–Scholes, Greeks and Monte Carlo Simulation
 
 **Overview:**  
-This repository moves from notebooks to modular Python scripts. It includes pricing, Greek calculations, and a Monte Carlo approach for comparison.
+This set of codes focuses on implementing the Black–Scholes model in a more structured Python format. It also includes the calculation of option Greeks and option pricing using Monte Carlo simulation.
 
 **Files:**
 - `black_scholes.py`  
-  Contains functions to compute European call and put prices using the Black–Scholes formula.
+  Contains functions to compute European call and put option prices using the Black–Scholes formula based on the given input parameters. This is similar to the code from the previous BS model code.
 - `calculate_greeks.py`  
-  Computes option Greeks such as Delta, Gamma, Vega, Theta, and Rho.
+  Computes using formulas to calculate option Greeks such as Delta, Gamma, Vega, Theta, and Rho for both call and put options.
 - `greeks_analysis.py`  
-  Uses the Greek functions to study how sensitivities change with different parameters.
+  Uses the Greek calculation functions to study how option sensitivities change with respect to different parameters like volatility, time, and stock price.
 - `monte_carlo.py`  
-  Implements Monte Carlo simulation to price options by simulating stock price paths.
+  Learnt the working of Monte Carlo simulation with the help of the reference code. It implements Monte Carlo simulation to price options by simulating multiple stock price paths (assuming different financial worlds) and estimating the expected payoff by taking into account all such possible paths. 
 - `user_input.py`  
-  Handles user inputs for parameters like stock price, strike price, volatility, and maturity.
+  Takes user inputs for option parameters such as stock price, strike price, volatility, risk-free rate and time to maturity.
 
 ---
 
 ## repo3 – Advanced Option Pricing Models
 
 **Overview:**  
-This repository explores multiple option pricing methods and compares them with Black–Scholes. It also introduces stochastic volatility.
+This set of codes has different option pricing models and compares them with the Black–Scholes model framework. It also has the codes stochastic volatility models.
 
 **Files:**
 - `black_scholes.py`  
-  Standard Black–Scholes implementation used as a reference model.
+  Implements the standard Black–Scholes formula for pricing European call and put options. This file is mainly used as a reference model to compare results obtained from other pricing methods. Again, this code remains similar to the previous ones. 
 - `binomial_tree.py`  
-  Prices options using the binomial tree method.
+  This implements the binomial tree method for option pricing by modeling the stock price evolution in discrete time steps (this is somewhat similar to black scholes model working but it is its discrete time counterpart) and computing option values by collapsing the binary tree level by level backward. 
 - `monte_carlo.py`  
-  Monte Carlo simulation for option pricing.
+  The option prices were determined using Monte Carlo simulation by generating multiple random price paths and estimating the option value using the average discounted payoff.
 - `greeks.py`  
-  Calculates Greeks for the implemented pricing models.
+  It computes the option Greeks such as Delta, Gamma, Vega, Theta and Rho that measure the sensitivity of option prices with respect to different parameters.
 - `heston.py`  
-  Implements the Heston model with stochastic volatility.
+  It implements Heston stochastic volatility model, where both the stock price and volatility evolve over time (unlike the black scholes model where only the stock price changed with time and volatality was treated as a constant). This allows for more realistic option pricing. 
 - `volatality.py`  
-  Studies the effect of volatility on option prices.
+  This is to analyze how changes in volatility affect option prices. The file covers both historical volatility and implied volatility and also compares the behaviour of different pricing models with different volatility levels.
 
 ---
 
-This repository was created as part of practice and learning in quantitative finance and derivative pricing.
+
