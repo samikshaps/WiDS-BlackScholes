@@ -8,7 +8,7 @@ Three repositories were covered by practicing those code files which included th
 ## repo1 – Basic Black Scholes code
 
 **Overview:**  
-This set of codes is mainly for understanding and coding the Black–Scholes model with python notebook. The main idea is to get intuition about how option prices depend on different parameters.
+This set of codes is mainly for understanding and coding the Black–Scholes model with python notebook. The aim is to understand the working of the mathematical formulation of the model and study the dependence of option prices and Greeks on key parameters.
 
 **Files:**
 - `BlackScholesImplementation.ipynb`  
