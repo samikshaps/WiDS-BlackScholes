@@ -1,4 +1,4 @@
-# WiDS-BlackScholes
+# WiDS-Simulation and Quantitative Analysis of the Black Scholes Model Using Python
 # Practice Repositories
 
 Three repositories were covered by practicing those code files which included the relevant concepts. Files that take user input, use streamlit, code for visualisation with mathplotlib or plotly were ignored for this practice.
