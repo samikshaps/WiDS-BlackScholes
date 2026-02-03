@@ -56,7 +56,7 @@ This set of codes has different option pricing models and compares them with the
 - `volatality.py`  
   This is to analyze how changes in volatility affect option prices. The file covers both historical volatility and implied volatility and also compares the behaviour of different pricing models with different volatility levels.
 
-# 🚀 Final Project: Option Pricing using Black–Scholes and Monte Carlo Simulation (CEV Model)
+# Final Project: Option Pricing using Black–Scholes and Monte Carlo Simulation (CEV Model)
 
 ## Overview
 
